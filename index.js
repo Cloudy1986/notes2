@@ -7,7 +7,7 @@ let buttonEl = document.querySelector('#add-note-button');
 buttonEl.addEventListener('click', () => {
   let userTitle = inputElTitle.value; // set a variable for the title
   let userContent = inputElContent.value; // set a variable for the content
-  // Create a data object with the title and content
+  // Create a data object containing the title and content
   const data = {
     title: userTitle,
     content: userContent
