@@ -1,3 +1,9 @@
+const displayNotes = require('./displayNotes');
+const fetchNotes = require('./fetchNotes');
+
+// Get notes from the server and display them in the browser
+fetchNotes(displayNotes);
+
 // Set variables for the html elements on index.html - the two input fields and the button
 let inputElTitle = document.querySelector('#user_input_note_title');
 let inputElContent = document.querySelector('#user_input_note_content');
